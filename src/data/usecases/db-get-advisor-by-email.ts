@@ -3,7 +3,7 @@ import { AdvisorSqlRepository } from '../../infra/db/sqlserver/advisor-sql-repos
 import { GetAdvisorRepository } from '../providers/db/advisor/get-advisor-repository';
 
 export class DbGetAdvisorByEmail implements AdvisorByEmail {
-  //DI must solve this
+  //DI or singleton solves this
   private getAdvisorRepository: GetAdvisorRepository = new AdvisorSqlRepository()
 
   async getAdvisorByEmail(email: string): Promise<any> {
