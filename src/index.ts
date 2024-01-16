@@ -1,4 +1,4 @@
-import { AdvisorController } from './src/_external/controllers/advisor-controller';
+import { AdvisorController } from './_external/controllers/advisor-controller';
 
 async function main() {
   try {

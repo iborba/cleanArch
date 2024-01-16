@@ -1,12 +1,16 @@
 {
   "name": "typescript",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
   "dependencies": {
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "dev": "tsc index.ts"
+    "dev": "npx nodemon"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.4",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
   }
 }
