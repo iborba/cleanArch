@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
   "scripts": {
     "dev": "tsc index.ts"
   }
