@@ -2,8 +2,8 @@ import { AdvisorController } from './src/_external/controllers/advisor-controlle
 
 (async () => {
   console.log('start');
-  // const controller = new AdvisorController();
-  // const response = await controller.getAdvisorByEmail('email');
+  const controller = new AdvisorController();
+  const response = await controller.getAdvisorByEmail('email');
 
-  // console.log(response);
+  console.log(response);
 })();

@@ -1,6 +1,10 @@
 {
   "name": "typescript",
   "version": "0.0.0",
+  "type": "module",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "dev": "tsc index.ts"
+  }
 }
